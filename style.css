@@ -58,7 +58,7 @@ html {
 
 body {
   overflow-x: hidden !important;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #main-hero {
@@ -82,7 +82,7 @@ video {
   width: 100vw;
   display: block;
   height: auto;
-  height: 100vh !important;
+  min-height: 100vh !important;
   -o-object-fit: cover !important;
      object-fit: cover !important;
 }
@@ -390,7 +390,7 @@ video {
   .navigation .line {
     width: 30%;
   }
-  #video-viewport, .fullsize-video-bg, .fullsize-video-bg::before {
+  #video-viewport, .fullsize-video-bg, .fullsize-video-bg::before, video {
     min-height: 200vh !important;
     height: auto !important;
   }

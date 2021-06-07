@@ -52,7 +52,7 @@ html {
 }
 body { 
 overflow-x: hidden !important;
-    height: 100vh; }
+    min-height: 100vh; }
 
     #main-hero{
         position: absolute;
@@ -74,7 +74,7 @@ video {
       width: 100vw;
     display: block; 
      height: auto;
-     height: 100vh !important;
+     min-height: 100vh !important;
      object-fit:cover !important;
  }
 
@@ -305,7 +305,7 @@ width: 45%;
                         width: 30%;
                     }
                 }
-                #video-viewport,.fullsize-video-bg,.fullsize-video-bg::before{
+                #video-viewport,.fullsize-video-bg,.fullsize-video-bg::before,video{
                     min-height:200vh !important;
                     height: auto !important;
                 }
