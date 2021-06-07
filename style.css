@@ -407,10 +407,6 @@ video {
   background-color: sandybrown;
 }
 
-.notvisible, .content {
-  opacity: 0;
-}
-
 .loader {
   width: 100%;
   min-height: 100vh;
